@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="space_4">2dp</dimen>
+    <dimen name="space_6">3dp</dimen>
+    <dimen name="space_10">5dp</dimen>
+    <dimen name="space_20">10dp</dimen>
+    <dimen name="space_15">7dp</dimen>
+    <dimen name="space_30">15dp</dimen>
+    <dimen name="space_40">20dp</dimen>
+    <dimen name="space_50">25dp</dimen>
+    <dimen name="space_80">40dp</dimen>
+    <dimen name="space_70">35dp</dimen>
+    <dimen name="space_60">30dp</dimen>
+    <dimen name="space_220">110dp</dimen>
+    <dimen name="space_120">60dp</dimen>
+    <dimen name="textsize_14sp_in_normal">14sp</dimen>
+    <dimen name="textsize_11sp_in_normal">11sp</dimen>
+    <dimen name="textsize_40sp_in_normal">40sp</dimen>
+    <dimen name="textsize_34sp_in_normal">34sp</dimen>
+    <dimen name="textsize_46sp_in_normal">46sp</dimen>
+    <dimen name="textsize_22sp_in_normal">22sp</dimen>
+    <dimen name="textsize_21sp_in_normal">21sp</dimen>
+    <dimen name="textsize_24sp_in_normal">24sp</dimen>
+    <dimen name="textsize_12sp_in_normal">12sp</dimen>
+    <dimen name="textsize_10sp_in_normal">10sp</dimen>
+    <dimen name="textsize_20sp_in_normal">20sp</dimen>
+    <dimen name="textsize_27sp_in_normal">27sp</dimen>
+    <dimen name="textsize_28sp_in_normal">28sp</dimen>
+    <dimen name="textsize_16sp_in_normal">16sp</dimen>
+    <dimen name="textsize_17sp_in_normal">17sp</dimen>
+    <dimen name="textsize_18sp_in_normal">18sp</dimen>
+    <dimen name="textsize_19sp_in_normal">19sp</dimen>
+    <dimen name="textsize_15sp_in_normal">15sp</dimen>
+    <dimen name="textsize_36sp_in_normal">36sp</dimen>
+    <dimen name="textsize_32sp_in_normal">32sp</dimen>
+</resources>
