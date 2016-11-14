@@ -12,4 +12,7 @@
         <!--android:statusBarColor   状态栏颜色设定-->
     </style>
 
+    <style name="AppTheme.OverlapSystemBar" parent="AppTheme">
+    </style>
+
 </resources>
