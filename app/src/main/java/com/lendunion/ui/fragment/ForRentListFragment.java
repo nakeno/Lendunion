@@ -19,7 +19,7 @@ import com.lendunion.ui.fragment.dummy.DummyContent;
 /**
  * Created by hcz on 2016/7/27.
  */
-public class SecondFragment extends Fragment {
+public class ForRentListFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -36,16 +36,16 @@ public class SecondFragment extends Fragment {
                     commonViewHolder.setText(R.id.tv_object_name, item.id);
                     commonViewHolder.setText(R.id.tv_object_desc, item.content);
 
-                    Glide.with(SecondFragment.this).load("http://img0.bdstatic.com/img/image/shouye/xiaoxiao/%E5%AE%A0%E7%89%A9722.jpg").centerCrop().placeholder(R.mipmap.ic_launcher).crossFade().into((ImageView) commonViewHolder.getView(R.id.iv_object));
+                    Glide.with(ForRentListFragment.this).load("http://img0.bdstatic.com/img/image/shouye/xiaoxiao/%E5%AE%A0%E7%89%A9722.jpg").centerCrop().placeholder(R.mipmap.ic_launcher).crossFade().into((ImageView) commonViewHolder.getView(R.id.iv_object));
                 }
             });
         }
         return view;
     }
 
-    public static SecondFragment newInstance() {
+    public static ForRentListFragment newInstance() {
         Bundle args = new Bundle();
-        SecondFragment fragment = new SecondFragment();
+        ForRentListFragment fragment = new ForRentListFragment();
         fragment.setArguments(args);
         return fragment;
     }

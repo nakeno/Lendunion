@@ -11,8 +11,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import com.lendunion.ui.fragment.PageFragment;
-import com.lendunion.ui.fragment.SecondFragment;
+import com.lendunion.ui.fragment.ForRentListFragment;
+import com.lendunion.ui.fragment.RaisingListFragment;
 import com.lendunion.ui.fragment.dummy.DummyContent;
+
+import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -46,13 +49,16 @@ public class MainActivity extends AppCompatActivity implements PageFragment.OnLi
     }
 
     private class ScreenSlidePagerAdapter extends FragmentPagerAdapter {
+        private ArrayList<Fragment> pageFragments = new ArrayList();
         public ScreenSlidePagerAdapter(FragmentManager fm) {
             super(fm);
+            pageFragments.add(RaisingListFragment.newInstance());
+            pageFragments.add(ForRentListFragment.newInstance());
         }
 
         @Override
         public Fragment getItem(int position) {
-            return SecondFragment.newInstance();
+            return pageFragments.get(position);
         }
 
         @Override
